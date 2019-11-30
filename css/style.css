@@ -73,3 +73,24 @@ html {
     min-height: 450px;
     background: url("../image/main-banner.png") no-repeat scroll 0px 100% / cover ;
 }
+
+.abt-img{
+	 position: relative;
+    min-height: 250px;
+    background: url("../image/about.png") no-repeat scroll 0px 100% / cover ;
+}
+
+.abt-img1{
+	 position: relative;
+	 /* min-height: 250px; */
+	 height:250px ;
+	 width: 100%;
+    background: url("../image/about.png") no-repeat ;
+    
+}
+
+.center {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

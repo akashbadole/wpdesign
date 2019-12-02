@@ -126,3 +126,27 @@ display: block;
 .card-body{
 background-color: black;
 }
+
+.worktext{
+  margin: -20px auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #b1061f;
+  color: white;
+  font-weight: 900;
+  font-size: 45px; 
+  width: 255px;
+  height: 80px;
+}
+
+.navtext{
+  
+  margin: 5px;
+  margin-right: 10px;
+  background-color: #b1061f;
+  color: white;
+  font-weight: 300;
+  font-size: 15px; 
+  width: 55px;
+  height: 40px;
+  color: white;
+}

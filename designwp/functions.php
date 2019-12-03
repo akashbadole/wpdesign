@@ -121,6 +121,13 @@ add_action( 'widgets_init', 'designwp_widgets_init' );
  */
 function designwp_scripts() {
 	wp_enqueue_style( 'designwp-style', get_stylesheet_uri() );
+	
+ 	wp_enqueue_style( 'bootstrap_cdn',   'https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css', array(), '20191215', true );
+ 	wp_enqueue_style( 'fafa_cdn',  'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array(), '20191215', true );
+	wp_enqueue_script( 'jquery',  'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'bootstrap_js',  'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'designwp-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+
 
 	wp_enqueue_script( 'designwp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

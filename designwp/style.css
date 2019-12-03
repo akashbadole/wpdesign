@@ -983,3 +983,158 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+
+html {
+	font-size: 14px;
+  }
+  @media (min-width: 768px) {
+	html {
+	  font-size: 16px;
+	}
+  }
+  
+  .container {
+	max-width: 960px;
+  }
+  
+  .pricing-header { 
+	max-width: 700px;
+  }
+  
+  .card-deck .card {
+	min-width: 220px;
+  }
+  
+  .bd-placeholder-img {
+		  font-size: 1.125rem;
+		  text-anchor: middle;
+		  -webkit-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		}
+  
+  @media (min-width: 768px) {
+		  .bd-placeholder-img-lg {
+			font-size: 3.5rem;
+		  }
+		}
+  
+  
+  .jumbotron {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin-bottom: 0;
+	background-color: #fff;
+  }
+  @media (min-width: 768px) {
+	.jumbotron {
+	  padding-top: 6rem;
+	  padding-bottom: 6rem;
+	}
+  }
+  
+  .jumbotron p:last-child {
+	margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+	font-weight: 300;
+  }
+  
+  .jumbotron .container {
+	max-width: 50rem;
+  }
+  
+  .backimage{
+	background-image: url("../image/main-banner.png");
+	  background-repeat: no-repeat;
+	background-size: auto;
+  }
+  
+  
+  .cover{
+   /*    color: rgb(255, 255, 255); */
+	  position: relative;
+	  min-height: 550px;
+	  background: url("../image/main-banner.png") no-repeat scroll 0px 100% / cover ;
+  }
+  
+  .abt-img{
+	   position: relative;
+	  min-height: 450px;
+	  background: url("../image/about.png") no-repeat scroll 0px 100% / cover ;
+  }
+  
+  .abt-img1{
+	   position: relative;
+	   /* min-height: 250px; */
+	   height:250px ;
+	   width: 100%;
+	  background: url("../image/about.png") no-repeat ;
+	  
+  }
+  
+  .center {
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  
+  .topnav-right {
+	float: right;
+  }
+  .box {
+	border: 1px solid;
+	padding: 10px;
+	/* width: 585px;
+	height: 346px; */
+	border:2px black solid;
+	background-color: black;
+	color: white;
+	/* margin: 150px; */
+	margin-top: -125px;
+	margin-bottom: 20px;
+  }
+  
+  .redtext{
+	color: red;
+	text-transform: uppercase;
+  }
+  
+  .whitetext{
+	color:white;
+	font-weight: 500;
+	text-transform: uppercase;
+  }
+  
+  .card-body{
+  background-color: black;
+  }
+  
+  .worktext{
+	margin: -20px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #b1061f;
+	color: white;
+	font-weight: 900;
+	font-size: 45px; 
+	width: 255px;
+	height: 80px;
+  }
+  
+  .navtext{
+	
+	margin: 5px;
+	margin-right: 10px;
+	background-color: #b1061f;
+	color: white;
+	font-weight: 300;
+	font-size: 15px; 
+	width: 55px;
+	height: 40px;
+	color: white;
+  }
